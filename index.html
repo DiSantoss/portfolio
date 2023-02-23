@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/animations.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/responsive.css">
+
+    <!-- scrool -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="src/svgs/logo.svg" type="image/x-icon">
+
+    <title>Di-Portifólio</title>
+</head>
+<body>
+
+    <header>
+        <nav> 
+            <a href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.086" height="34.889" viewBox="0 0 60.086 34.889">
+                    <defs>
+                      <linearGradient id="linear-gradient" x1="0.5" x2="2.316" y2="1.135" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#eb1e9c"/>
+                        <stop offset="1" stop-color="#2b56ff"/>
+                      </linearGradient>
+                      <linearGradient id="linear-gradient-2" x1="-0.766" y1="0.169" x2="1.676" y2="0.836" xlink:href="#linear-gradient"/>
+                      <linearGradient id="linear-gradient-3" x1="-1.414" y1="-0.136" x2="0.893" y2="1.058" xlink:href="#linear-gradient"/>
+                    </defs>
+                    <g id="logo" transform="translate(-44.316 -24.969)">
+                      <path id="Caminho_4" data-name="Caminho 4" d="M62.994,38.889V32.722L44.316,41v5.11l18.678,8.194v-6.52l-12.6-4.405Z" fill="url(#linear-gradient)"/>
+                      <path id="Caminho_5" data-name="Caminho 5" d="M77.355,24.969h4.758L70.394,59.857H65.549Z" fill="url(#linear-gradient-2)"/>
+                      <path id="Caminho_6" data-name="Caminho 6" d="M85.46,32.722v6.52L98.235,43.47,85.46,48.052v5.991L104.4,45.849V40.827Z" fill="url(#linear-gradient-3)"/>
+                    </g>
+                </svg>
+            </a>
+
+            
+                <div class="menu-icon">
+                    <span class="trace"></span>
+                    <span class="trace"></span>
+                    <span class="trace"></span>
+                </div>
+                
+            <div class="menu">
+                <ul>
+                    
+                    <li><a href="#home">Home</a></li>
+                
+                    <li><a href="#sobre">Sobre</a></li>
+
+                    <li><a href="#projetos">Projetos</a></li>
+                
+                    <li><a href="#contato">Contato</a></li>
+                   
+                </ul>
+            </div>
+        </nav>
+        <section id="home">
+            <div class="text-header" data-aos="zoom-out">
+                <h2>Olá, meu nome é</h2>
+                <h1>Diego dos Santos</h1>
+                <h2>Desenvolvedor Web</h2>
+            
+
+                <a target="_blank" href="src/imgs/curriculum/curriculo-Diego-dos-Santos.pdf">
+                    <button id="header-button">
+                        DOWNLOAD CV
+                    </button>
+                </a>
+            </div>
+        </section>
+        <div class="header-social">
+            <a href="#">
+                <svg width="50" height="50" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.1 17.813c.057-.206-.066-.491-.184-.697a2.007 2.007 0 0 0-.12-.178 9.366 9.366 0 0 1-1.546-5.156C2.233 6.52 6.596 2.25 11.992 2.25c4.705 0 8.633 3.26 9.55 7.587a9.32 9.32 0 0 1 .208 1.952c0 5.269-4.195 9.606-9.59 9.606-.858 0-2.016-.216-2.647-.393a17.714 17.714 0 0 1-1.425-.474A1.46 1.46 0 0 0 7 20.545l-3.18 1.148a.748.748 0 0 1-.218.057.45.45 0 0 1-.45-.457.744.744 0 0 1 .029-.154l.92-3.326Z"></path>
+                    <path fill="currentColor" stroke="none" d="M7.5 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
+                    <path fill="currentColor" stroke="none" d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
+                    <path fill="currentColor" stroke="none" d="M16.5 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
+                  </svg>
+            </a>
+            
+            <a href="https://github.com/DiSantoss">
+                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 1.5C6.202 1.5 1.5 6.323 1.5 12.267c0 4.758 3.01 8.79 7.181 10.214a.82.82 0 0 0 .178.019c.39 0 .54-.286.54-.534 0-.258-.01-.933-.015-1.833a4.802 4.802 0 0 1-1.059.126c-2.02 0-2.48-1.57-2.48-1.57-.478-1.242-1.167-1.575-1.167-1.575-.914-.642-.005-.66.066-.66h.004c1.055.093 1.608 1.115 1.608 1.115.525.919 1.228 1.176 1.857 1.176a2.953 2.953 0 0 0 1.2-.28c.093-.695.365-1.168.665-1.44-2.33-.272-4.781-1.195-4.781-5.32 0-1.177.408-2.138 1.078-2.888-.108-.272-.469-1.369.103-2.85a.874.874 0 0 1 .235-.023c.38 0 1.237.145 2.653 1.13a9.76 9.76 0 0 1 5.259 0c1.416-.985 2.273-1.13 2.653-1.13a.873.873 0 0 1 .235.023c.571 1.481.21 2.578.103 2.85.67.755 1.078 1.716 1.078 2.888 0 4.134-2.456 5.043-4.796 5.31.375.333.713.99.713 1.993 0 1.439-.014 2.601-.014 2.953 0 .253.145.539.534.539a.9.9 0 0 0 .188-.019c4.176-1.425 7.181-5.46 7.181-10.214C22.5 6.323 17.798 1.5 12 1.5Z"></path>
+                </svg>
+            </a>
+
+            <a href="https://www.linkedin.com/in/di-santos/">
+                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.82 1.5H3.294c-.957 0-1.794.69-1.794 1.635v17.566c0 .951.837 1.799 1.794 1.799h17.521c.963 0 1.685-.854 1.685-1.8V3.136c.006-.946-.722-1.635-1.68-1.635ZM8.01 19.005H5V9.65h3.01v9.354ZM6.61 8.228h-.022c-.963 0-1.586-.716-1.586-1.613C5.002 5.7 5.642 5 6.626 5c.984 0 1.587.695 1.608 1.614 0 .897-.624 1.613-1.625 1.613Zm12.395 10.777h-3.009V13.89c0-1.225-.438-2.063-1.526-2.063-.832 0-1.324.563-1.543 1.111-.082.197-.104.465-.104.739v5.328H9.815V9.65h3.008v1.301c.438-.623 1.122-1.52 2.713-1.52 1.975 0 3.469 1.301 3.469 4.108v5.465Z"></path>
+                </svg>
+            </a>
+
+            <a href="https://www.instagram.com/_disantossilva/">
+                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.375 3.25a4.388 4.388 0 0 1 4.375 4.375v8.75a4.388 4.388 0 0 1-4.375 4.375h-8.75a4.389 4.389 0 0 1-4.375-4.375v-8.75A4.388 4.388 0 0 1 7.625 3.25h8.75Zm0-1.75h-8.75C4.256 1.5 1.5 4.256 1.5 7.625v8.75c0 3.369 2.756 6.125 6.125 6.125h8.75c3.369 0 6.125-2.756 6.125-6.125v-8.75c0-3.369-2.756-6.125-6.125-6.125Z"></path>
+                    <path d="M17.688 7.625a1.313 1.313 0 1 1 0-2.625 1.313 1.313 0 0 1 0 2.625Z"></path>
+                    <path d="M12 8.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm0-1.75a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5Z"></path>
+                </svg>
+            </a>
+            
+            <a href="https://wa.me/21981085639">
+                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.001 4.908A9.817 9.817 0 0 0 11.992 2C6.534 2 2.085 6.448 2.08 11.908c0 1.748.458 3.45 1.321 4.956L2 22l5.255-1.377a9.916 9.916 0 0 0 4.737 1.206h.005c5.46 0 9.908-4.448 9.913-9.913A9.872 9.872 0 0 0 19 4.908h.001ZM11.992 20.15A8.216 8.216 0 0 1 7.797 19l-.3-.18-3.117.818.833-3.041-.196-.314a8.2 8.2 0 0 1-1.258-4.381c0-4.533 3.696-8.23 8.239-8.23a8.2 8.2 0 0 1 5.825 2.413 8.196 8.196 0 0 1 2.41 5.825c-.006 4.55-3.702 8.24-8.24 8.24Zm4.52-6.167c-.247-.124-1.463-.723-1.692-.808-.228-.08-.394-.123-.556.124-.166.246-.641.808-.784.969-.143.166-.29.185-.537.062-.247-.125-1.045-.385-1.99-1.23-.738-.657-1.232-1.47-1.38-1.716-.142-.247-.013-.38.11-.504.11-.11.247-.29.37-.432.126-.143.167-.248.248-.413.082-.167.043-.31-.018-.433-.063-.124-.557-1.345-.765-1.838-.2-.486-.404-.419-.557-.425-.142-.009-.309-.009-.475-.009a.911.911 0 0 0-.661.31c-.228.247-.864.845-.864 2.067 0 1.22.888 2.395 1.013 2.56.122.167 1.742 2.666 4.229 3.74.587.257 1.05.408 1.41.523.595.19 1.13.162 1.558.1.475-.072 1.464-.6 1.673-1.178.205-.58.205-1.075.142-1.18-.061-.104-.227-.165-.475-.29Z"></path>
+                  </svg>
+            </a>
+        </div>
+        <div class="decals">
+           
+            <div class="decals-transform">
+                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1326.821 1347.315">
+                    <path id="Caminho_32" data-name="Caminho 32" d="M7596,1046s-8,82,46,252,228.311,263.407,338.02,454.3,26.138,212.318,64.6,329.241S8206,2304,8194,2358s-482,30-514,30-766-12-780-14-14-698-14-698l-18-630Z" transform="translate(-6868 -1046)" fill="#182943"/>
+                </svg>
+                  
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="988.241" height="988.241" viewBox="0 0 988.241 988.241">
+                    <rect id="Retângulo_61" data-name="Retângulo 61" width="824" height="824" rx="104" transform="translate(0 185.36) rotate(-13)" fill="#1f2c73"/>
+                </svg>
+                
+                <svg width="480" height="238" viewBox="0 0 480 238" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.5 237.334L478.786 0.0447082L479.711 237.334L0.5 237.334Z" fill="url(#paint0_linear_608_8)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_608_8" x1="82.5" y1="130" x2="535.5" y2="92.5" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#2B56FF"/>
+                    <stop offset="1" stop-color="#EB1E9C"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                    
+                    
+                
+                <svg id="circulo" xmlns="http://www.w3.org/2000/svg" width="276" height="276" viewBox="0 0 276 276">
+                    <g id="Grupo_4" data-name="Grupo 4">
+                      <g id="element-circ">
+                        <rect id="Retângulo_58" data-name="Retângulo 58" width="276" height="276" fill="rgba(255,255,255,0)"/>
+                        <circle id="Elipse_1" data-name="Elipse 1" cx="131.5" cy="131.5" r="131.5" transform="translate(6 7)" fill="#1f2c73"/>
+                        <circle id="Elipse_7" data-name="Elipse 7" cx="13" cy="13" r="13" transform="translate(250 250)" fill="#6136bf"/>
+                      </g>
+                    </g>
+                </svg>
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="23.616" height="13.503" viewBox="0 0 23.616 13.503">
+                    <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M18,20.679l8.93-8.937a1.681,1.681,0,0,1,2.384,0,1.7,1.7,0,0,1,0,2.391L19.2,24.258a1.685,1.685,0,0,1-2.327.049L6.68,14.14a1.688,1.688,0,0,1,2.384-2.391Z" transform="translate(-6.188 -11.246)" fill="#5a6577"/>
+                </svg>
+                                    
+            </div>
+                  
+              
+        </div>
+    </header>
+
+    <main class="container">
+       
+        <section id="sobre">
+            <div class="wrapper-sobre">
+                <div class="text-sobre" data-aos="zoom-in">
+                    <h1>Sobre</h1>
+                    <p> Com uma experiência de 4 anos em gestão contábil e financeira, adquiri habilidades valiosas, como a utilização de ferramentas de análise de dados financeiros, como Excel avançado com uso de macros. Além disso, estou me qualificando na área de tecnologia, aprendendo HTML5, CSS, JavaScript, Bootstrap, Java, Git e Github através de cursos online, incluindo "Curso em Vídeo" (do Gustavo Guanabara), o curso de Desenvolvedor FullStack B7WEB do Bonieky Lacerda e um curso tecnólogo superior em Análise e Desenvolvimento de Sistemas. Meu objetivo é dominar as tecnologias avançadas, como React, Node JS e banco de dados.
+                    </p>
+                    
+                    <div>
+                        <a href="https://github.com/DiSantoss">
+                            <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 1.5C6.202 1.5 1.5 6.323 1.5 12.267c0 4.758 3.01 8.79 7.181 10.214a.82.82 0 0 0 .178.019c.39 0 .54-.286.54-.534 0-.258-.01-.933-.015-1.833a4.802 4.802 0 0 1-1.059.126c-2.02 0-2.48-1.57-2.48-1.57-.478-1.242-1.167-1.575-1.167-1.575-.914-.642-.005-.66.066-.66h.004c1.055.093 1.608 1.115 1.608 1.115.525.919 1.228 1.176 1.857 1.176a2.953 2.953 0 0 0 1.2-.28c.093-.695.365-1.168.665-1.44-2.33-.272-4.781-1.195-4.781-5.32 0-1.177.408-2.138 1.078-2.888-.108-.272-.469-1.369.103-2.85a.874.874 0 0 1 .235-.023c.38 0 1.237.145 2.653 1.13a9.76 9.76 0 0 1 5.259 0c1.416-.985 2.273-1.13 2.653-1.13a.873.873 0 0 1 .235.023c.571 1.481.21 2.578.103 2.85.67.755 1.078 1.716 1.078 2.888 0 4.134-2.456 5.043-4.796 5.31.375.333.713.99.713 1.993 0 1.439-.014 2.601-.014 2.953 0 .253.145.539.534.539a.9.9 0 0 0 .188-.019c4.176-1.425 7.181-5.46 7.181-10.214C22.5 6.323 17.798 1.5 12 1.5Z"></path>
+                            </svg>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/di-santos/">
+                            <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.82 1.5H3.294c-.957 0-1.794.69-1.794 1.635v17.566c0 .951.837 1.799 1.794 1.799h17.521c.963 0 1.685-.854 1.685-1.8V3.136c.006-.946-.722-1.635-1.68-1.635ZM8.01 19.005H5V9.65h3.01v9.354ZM6.61 8.228h-.022c-.963 0-1.586-.716-1.586-1.613C5.002 5.7 5.642 5 6.626 5c.984 0 1.587.695 1.608 1.614 0 .897-.624 1.613-1.625 1.613Zm12.395 10.777h-3.009V13.89c0-1.225-.438-2.063-1.526-2.063-.832 0-1.324.563-1.543 1.111-.082.197-.104.465-.104.739v5.328H9.815V9.65h3.008v1.301c.438-.623 1.122-1.52 2.713-1.52 1.975 0 3.469 1.301 3.469 4.108v5.465Z"></path>
+                            </svg>
+                        </a>
+
+                        <a href="https://www.instagram.com/_disantossilva/">
+                            <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.375 3.25a4.388 4.388 0 0 1 4.375 4.375v8.75a4.388 4.388 0 0 1-4.375 4.375h-8.75a4.389 4.389 0 0 1-4.375-4.375v-8.75A4.388 4.388 0 0 1 7.625 3.25h8.75Zm0-1.75h-8.75C4.256 1.5 1.5 4.256 1.5 7.625v8.75c0 3.369 2.756 6.125 6.125 6.125h8.75c3.369 0 6.125-2.756 6.125-6.125v-8.75c0-3.369-2.756-6.125-6.125-6.125Z"></path>
+                                <path d="M17.688 7.625a1.313 1.313 0 1 1 0-2.625 1.313 1.313 0 0 1 0 2.625Z"></path>
+                                <path d="M12 8.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm0-1.75a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5Z"></path>
+                            </svg>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="img-sobre" >
+                    <div class="photo-wrapper">
+                        <img src="src/imgs/avatar.jpg" alt="foto de perfil" style="border-radius: 50%;">
+
+                        <img src="src/imgs/icon-js.png" alt="js icone">
+
+                        <img src="src/imgs/icon-css.png" alt="icone css">
+
+                        <img src="src/imgs/icon-html.png" alt="icone js">
+                    </div>
+                </div>
+                <div class="decals-sobre" data-aos="fade-right">
+                   
+                    <div class="decals-sobre-wrapper" data-aos="fade-up">
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="3155.674" height="355.151" viewBox="0 0 3155.674 355.151">
+                            <g id="line" transform="translate(517.922 -2521.254)">
+                              <circle id="Elipse_16" data-name="Elipse 16" cx="27.5" cy="27.5" r="27.5" transform="translate(581 2726)" fill="rgba(214,214,214,0.13)"/>
+                              <path id="Caminho_40" data-name="Caminho 40" d="M6294.808,3799.828c287.77-187.564,680.883-195.272,1156.216-12.847s755.394-485.611,1079.135-269.784,585.816,190.133,914.7-43.679" transform="translate(-6810 -947.519)" fill="none" stroke="rgba(214,214,214,0.13)" stroke-width="10"/>
+                            </g>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="296.993" height="296.993" viewBox="0 0 296.993 296.993">
+                            <g id="Retângulo_65" data-name="Retângulo 65" transform="translate(0 59.271) rotate(-14)" fill="none" stroke="rgba(214,214,214,0.13)" stroke-width="10">
+                              <rect width="245" height="245" rx="30" stroke="none"/>
+                              <rect x="5" y="5" width="235" height="235" rx="25" fill="none"/>
+                            </g>
+                          </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23.616" height="13.503" viewBox="0 0 23.616 13.503">
+                            <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M18,20.679l8.93-8.937a1.681,1.681,0,0,1,2.384,0,1.7,1.7,0,0,1,0,2.391L19.2,24.258a1.685,1.685,0,0,1-2.327.049L6.68,14.14a1.688,1.688,0,0,1,2.384-2.391Z" transform="translate(-6.188 -11.246)" fill="#5a6577"></path>
+                        </svg>
+
+                    </div>
+                        
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" >
+            <div class="flex-project">
+                <h1 style="margin-top: 50px;">Projetos</h1>
+                <div class="wrapper-projects" data-aos="zoom-in">
+                    
+                    <div class="item-project">
+                        <img src="src/imgs/googleclone.png" alt="">
+                        <span>Clone Google</span>
+                        <div class="web-link">
+                            
+                            <a target="_blank" href="https://github.com/DiSantoss/Desafio_Clone_Google">
+                                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 1.5C6.202 1.5 1.5 6.323 1.5 12.267c0 4.758 3.01 8.79 7.181 10.214a.82.82 0 0 0 .178.019c.39 0 .54-.286.54-.534 0-.258-.01-.933-.015-1.833a4.802 4.802 0 0 1-1.059.126c-2.02 0-2.48-1.57-2.48-1.57-.478-1.242-1.167-1.575-1.167-1.575-.914-.642-.005-.66.066-.66h.004c1.055.093 1.608 1.115 1.608 1.115.525.919 1.228 1.176 1.857 1.176a2.953 2.953 0 0 0 1.2-.28c.093-.695.365-1.168.665-1.44-2.33-.272-4.781-1.195-4.781-5.32 0-1.177.408-2.138 1.078-2.888-.108-.272-.469-1.369.103-2.85a.874.874 0 0 1 .235-.023c.38 0 1.237.145 2.653 1.13a9.76 9.76 0 0 1 5.259 0c1.416-.985 2.273-1.13 2.653-1.13a.873.873 0 0 1 .235.023c.571 1.481.21 2.578.103 2.85.67.755 1.078 1.716 1.078 2.888 0 4.134-2.456 5.043-4.796 5.31.375.333.713.99.713 1.993 0 1.439-.014 2.601-.014 2.953 0 .253.145.539.534.539a.9.9 0 0 0 .188-.019c4.176-1.425 7.181-5.46 7.181-10.214C22.5 6.323 17.798 1.5 12 1.5Z"></path>
+                                  </svg>
+                            </a>
+
+                              <a target="_blank" href="https://disantoss.github.io/Desafio_Clone_Google/">
+                                  <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2.25A9.75 9.75 0 0 0 2.25 12c0 5.384 4.365 9.75 9.75 9.75 5.384 0 9.75-4.366 9.75-9.75 0-5.385-4.366-9.75-9.75-9.75Z"></path>
+                                    <path d="M12 2.25c-2.722 0-5.28 4.365-5.28 9.75 0 5.384 2.56 9.75 5.281 9.75 2.722 0 5.282-4.366 5.282-9.75 0-5.385-2.56-9.75-5.282-9.75Z"></path>
+                                    <path d="M5.5 5.5C7.293 6.773 9.55 7.532 12 7.532c2.451 0 4.708-.76 6.5-2.032"></path>
+                                    <path d="M18.5 18.5c-1.792-1.272-4.049-2.031-6.5-2.031-2.45 0-4.707.759-6.5 2.031"></path>
+                                    <path d="M12 2.25v19.5"></path>
+                                    <path d="M21.75 12H2.25"></path>
+                                  </svg>
+                              </a>
+                              <a target="_blank" href="https://user-images.githubusercontent.com/99044745/218616795-8d9a417a-ee96-4b9d-bc6d-e6ef2c462cd1.png">
+                                <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M12 2.25A9.75 9.75 0 0 0 2.25 12c0 5.384 4.365 9.75 9.75 9.75 5.384 0 9.75-4.366 9.75-9.75 0-5.385-4.366-9.75-9.75-9.75Z"></path>
+                                  <path d="M12 2.25c-2.722 0-5.28 4.365-5.28 9.75 0 5.384 2.56 9.75 5.281 9.75 2.722 0 5.282-4.366 5.282-9.75 0-5.385-2.56-9.75-5.282-9.75Z"></path>
+                                  <path d="M5.5 5.5C7.293 6.773 9.55 7.532 12 7.532c2.451 0 4.708-.76 6.5-2.032"></path>
+                                  <path d="M18.5 18.5c-1.792-1.272-4.049-2.031-6.5-2.031-2.45 0-4.707.759-6.5 2.031"></path>
+                                  <path d="M12 2.25v19.5"></path>
+                                  <path d="M21.75 12H2.25"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item-project">
+                        <img src="https://user-images.githubusercontent.com/99044745/218280713-fa44e801-4a4b-432f-aed7-5fb1f210c771.png" alt="">
+                        <span>Music Component</span>
+                        <div class="web-link">
+                            
+                            <a target="_blank" href="https://github.com/DiSantoss/Desafio-FMENTOR_Music_Component_Main">
+                                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 1.5C6.202 1.5 1.5 6.323 1.5 12.267c0 4.758 3.01 8.79 7.181 10.214a.82.82 0 0 0 .178.019c.39 0 .54-.286.54-.534 0-.258-.01-.933-.015-1.833a4.802 4.802 0 0 1-1.059.126c-2.02 0-2.48-1.57-2.48-1.57-.478-1.242-1.167-1.575-1.167-1.575-.914-.642-.005-.66.066-.66h.004c1.055.093 1.608 1.115 1.608 1.115.525.919 1.228 1.176 1.857 1.176a2.953 2.953 0 0 0 1.2-.28c.093-.695.365-1.168.665-1.44-2.33-.272-4.781-1.195-4.781-5.32 0-1.177.408-2.138 1.078-2.888-.108-.272-.469-1.369.103-2.85a.874.874 0 0 1 .235-.023c.38 0 1.237.145 2.653 1.13a9.76 9.76 0 0 1 5.259 0c1.416-.985 2.273-1.13 2.653-1.13a.873.873 0 0 1 .235.023c.571 1.481.21 2.578.103 2.85.67.755 1.078 1.716 1.078 2.888 0 4.134-2.456 5.043-4.796 5.31.375.333.713.99.713 1.993 0 1.439-.014 2.601-.014 2.953 0 .253.145.539.534.539a.9.9 0 0 0 .188-.019c4.176-1.425 7.181-5.46 7.181-10.214C22.5 6.323 17.798 1.5 12 1.5Z"></path>
+                                  </svg>
+                            </a>
+
+                            <a target="_blank" href="https://disantoss.github.io/Desafio-FMENTOR_Music_Component_Main/">
+                                <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2.25A9.75 9.75 0 0 0 2.25 12c0 5.384 4.365 9.75 9.75 9.75 5.384 0 9.75-4.366 9.75-9.75 0-5.385-4.366-9.75-9.75-9.75Z"></path>
+                                <path d="M12 2.25c-2.722 0-5.28 4.365-5.28 9.75 0 5.384 2.56 9.75 5.281 9.75 2.722 0 5.282-4.366 5.282-9.75 0-5.385-2.56-9.75-5.282-9.75Z"></path>
+                                <path d="M5.5 5.5C7.293 6.773 9.55 7.532 12 7.532c2.451 0 4.708-.76 6.5-2.032"></path>
+                                <path d="M18.5 18.5c-1.792-1.272-4.049-2.031-6.5-2.031-2.45 0-4.707.759-6.5 2.031"></path>
+                                <path d="M12 2.25v19.5"></path>
+                                <path d="M21.75 12H2.25"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item-project">
+                        <img src="https://user-images.githubusercontent.com/99044745/216798533-4e466a92-4403-46c3-ac37-93f5ea328307.png" alt="">
+                        <span>Restaurant Bill</span>
+                        <div class="web-link">
+                            
+                            <a target="_blank" href="https://github.com/DiSantoss/Desafio_FMENTOR_RestaurantBill">
+                                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 1.5C6.202 1.5 1.5 6.323 1.5 12.267c0 4.758 3.01 8.79 7.181 10.214a.82.82 0 0 0 .178.019c.39 0 .54-.286.54-.534 0-.258-.01-.933-.015-1.833a4.802 4.802 0 0 1-1.059.126c-2.02 0-2.48-1.57-2.48-1.57-.478-1.242-1.167-1.575-1.167-1.575-.914-.642-.005-.66.066-.66h.004c1.055.093 1.608 1.115 1.608 1.115.525.919 1.228 1.176 1.857 1.176a2.953 2.953 0 0 0 1.2-.28c.093-.695.365-1.168.665-1.44-2.33-.272-4.781-1.195-4.781-5.32 0-1.177.408-2.138 1.078-2.888-.108-.272-.469-1.369.103-2.85a.874.874 0 0 1 .235-.023c.38 0 1.237.145 2.653 1.13a9.76 9.76 0 0 1 5.259 0c1.416-.985 2.273-1.13 2.653-1.13a.873.873 0 0 1 .235.023c.571 1.481.21 2.578.103 2.85.67.755 1.078 1.716 1.078 2.888 0 4.134-2.456 5.043-4.796 5.31.375.333.713.99.713 1.993 0 1.439-.014 2.601-.014 2.953 0 .253.145.539.534.539a.9.9 0 0 0 .188-.019c4.176-1.425 7.181-5.46 7.181-10.214C22.5 6.323 17.798 1.5 12 1.5Z"></path>
+                                  </svg>
+                            </a>
+
+                            <a target="_blank" href="https://disantoss.github.io/Desafio_FMENTOR_RestaurantBill/">
+                                <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2.25A9.75 9.75 0 0 0 2.25 12c0 5.384 4.365 9.75 9.75 9.75 5.384 0 9.75-4.366 9.75-9.75 0-5.385-4.366-9.75-9.75-9.75Z"></path>
+                                <path d="M12 2.25c-2.722 0-5.28 4.365-5.28 9.75 0 5.384 2.56 9.75 5.281 9.75 2.722 0 5.282-4.366 5.282-9.75 0-5.385-2.56-9.75-5.282-9.75Z"></path>
+                                <path d="M5.5 5.5C7.293 6.773 9.55 7.532 12 7.532c2.451 0 4.708-.76 6.5-2.032"></path>
+                                <path d="M18.5 18.5c-1.792-1.272-4.049-2.031-6.5-2.031-2.45 0-4.707.759-6.5 2.031"></path>
+                                <path d="M12 2.25v19.5"></path>
+                                <path d="M21.75 12H2.25"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item-project" >
+                        <img src="https://user-images.githubusercontent.com/99044745/156926889-8cc21229-676a-4754-b69b-789de08fa8e4.png" alt="">
+                        <span>Calculadora</span>
+                        <div class="web-link">
+                            
+                            <a href="https://github.com/DiSantoss/Calculadora">
+                                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 1.5C6.202 1.5 1.5 6.323 1.5 12.267c0 4.758 3.01 8.79 7.181 10.214a.82.82 0 0 0 .178.019c.39 0 .54-.286.54-.534 0-.258-.01-.933-.015-1.833a4.802 4.802 0 0 1-1.059.126c-2.02 0-2.48-1.57-2.48-1.57-.478-1.242-1.167-1.575-1.167-1.575-.914-.642-.005-.66.066-.66h.004c1.055.093 1.608 1.115 1.608 1.115.525.919 1.228 1.176 1.857 1.176a2.953 2.953 0 0 0 1.2-.28c.093-.695.365-1.168.665-1.44-2.33-.272-4.781-1.195-4.781-5.32 0-1.177.408-2.138 1.078-2.888-.108-.272-.469-1.369.103-2.85a.874.874 0 0 1 .235-.023c.38 0 1.237.145 2.653 1.13a9.76 9.76 0 0 1 5.259 0c1.416-.985 2.273-1.13 2.653-1.13a.873.873 0 0 1 .235.023c.571 1.481.21 2.578.103 2.85.67.755 1.078 1.716 1.078 2.888 0 4.134-2.456 5.043-4.796 5.31.375.333.713.99.713 1.993 0 1.439-.014 2.601-.014 2.953 0 .253.145.539.534.539a.9.9 0 0 0 .188-.019c4.176-1.425 7.181-5.46 7.181-10.214C22.5 6.323 17.798 1.5 12 1.5Z"></path>
+                                  </svg>
+                            </a>
+
+                              <a href="src/html/emBreve.html">
+                                  <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2.25A9.75 9.75 0 0 0 2.25 12c0 5.384 4.365 9.75 9.75 9.75 5.384 0 9.75-4.366 9.75-9.75 0-5.385-4.366-9.75-9.75-9.75Z"></path>
+                                    <path d="M12 2.25c-2.722 0-5.28 4.365-5.28 9.75 0 5.384 2.56 9.75 5.281 9.75 2.722 0 5.282-4.366 5.282-9.75 0-5.385-2.56-9.75-5.282-9.75Z"></path>
+                                    <path d="M5.5 5.5C7.293 6.773 9.55 7.532 12 7.532c2.451 0 4.708-.76 6.5-2.032"></path>
+                                    <path d="M18.5 18.5c-1.792-1.272-4.049-2.031-6.5-2.031-2.45 0-4.707.759-6.5 2.031"></path>
+                                    <path d="M12 2.25v19.5"></path>
+                                    <path d="M21.75 12H2.25"></path>
+                                  </svg>
+                              </a>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="decals-projects" data-aos="fade-right">
+                    <div class="decals-projects-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="624.846" height="628.446" viewBox="0 0 624.846 628.446">
+                            <g id="circle" transform="translate(2582.282 551.662) rotate(103)">
+                              <circle id="Elipse_9" data-name="Elipse 9" cx="27.5" cy="27.5" r="27.5" transform="translate(483 1989)" fill="rgba(214,214,214,0.13)"/>
+                              <g id="Elipse_10" data-name="Elipse 10" transform="translate(17 2005)" fill="none" stroke="rgba(214,214,214,0.13)" stroke-width="10">
+                                <circle cx="260.5" cy="260.5" r="260.5" stroke="none"/>
+                                <circle cx="260.5" cy="260.5" r="255.5" fill="none"/>
+                              </g>
+                            </g>
+                          </svg>
+                    
+                          <svg xmlns="http://www.w3.org/2000/svg" width="421" height="365" viewBox="0 0 421 365">
+                            <g id="Polígono_5" data-name="Polígono 5" fill="none">
+                              <path d="M168.919,72.1c18.47-32.027,64.691-32.027,83.161,0L379.488,293.02c18.455,32-4.64,71.98-41.581,71.98H83.093c-36.94,0-60.035-39.98-41.581-71.98Z" stroke="none"/>
+                              <path d="M 210.5 58.07965087890625 C 196.7546691894531 58.07965087890625 184.4488830566406 65.18829345703125 177.5819396972656 77.09536743164062 L 50.1744384765625 298.0157470703125 C 43.31317138671875 309.9129028320312 43.31826782226562 324.1155395507812 50.18804931640625 336.0078125 C 57.05789184570312 347.900146484375 69.35861206054688 355.0000305175781 83.09249877929688 355.0000305175781 L 337.9075012207031 355.0000305175781 C 351.6414489746094 355.0000305175781 363.9421691894531 347.900146484375 370.8119506835938 336.0078125 C 377.6817321777344 324.1156005859375 377.686767578125 309.9129028320312 370.8255004882812 298.0157470703125 L 243.4180603027344 77.09536743164062 C 236.5511169433594 65.18829345703125 224.2453308105469 58.07965087890625 210.5 58.07965087890625 M 210.5 48.07965087890625 C 226.6728363037109 48.07965087890625 242.8456726074219 56.08627319335938 252.0807189941406 72.09951782226562 L 379.4881591796875 293.0199279785156 C 397.9429931640625 325.0198669433594 374.8477172851562 364.9999694824219 337.9075012207031 365.0000305175781 L 83.09249877929688 365.0000305175781 C 46.15234375 364.9999694824219 23.0570068359375 325.0198669433594 41.51177978515625 293.0199279785156 L 168.9192810058594 72.09951782226562 C 178.1543273925781 56.08627319335938 194.3271636962891 48.07965087890625 210.5 48.07965087890625 Z" stroke="none" fill="rgba(214,214,214,0.13)"/>
+                            </g>
+                          </svg>
+                          
+                          <svg xmlns="http://www.w3.org/2000/svg" width="23.616" height="13.503" viewBox="0 0 23.616 13.503">
+                            <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M18,20.679l8.93-8.937a1.681,1.681,0,0,1,2.384,0,1.7,1.7,0,0,1,0,2.391L19.2,24.258a1.685,1.685,0,0,1-2.327.049L6.68,14.14a1.688,1.688,0,0,1,2.384-2.391Z" transform="translate(-6.188 -11.246)" fill="#5a6577"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" >
+            <div class="wrapper-formacao">
+                <div class="text-formacao-container" data-aos="zoom-in">
+                    <h1>Formações</h1>
+                    <div class="card-formacao">
+                        <div class="formacao">
+                            <div>
+                                <h3>Uniamérica Descomplica</h3>
+                            </div>
+                            <div>
+                                <p>Análise e desenvolvimento de sistemas (Andamento)</p> <span>2022</span>
+                            </div>
+                        </div>
+                        <div class="formacao">
+                            <div>
+                                <h3>Curso B7WEB do Mestre Bonieky Lacerda</h3>
+                            </div>
+                            <div>
+                                <p>Desenvolvedor FullStack (Andamento)</p> <span>2022</span>
+                            </div>
+                        </div>
+                        <div class="formacao">
+                            <div>
+                                <a href="https://www.linkedin.com/in/di-santos/details/certifications/"><h3>Mais de 30 Certificações em Programação.</h3></a>
+                            </div>
+                            <div>
+                                <p>DIO - ALURA - ROCKSEAT - CURSO EM VIDEO - DESCOMPLICA</p> <span>2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="decals-formacao" data-aos="fade-right">
+                    <div class="decals-formacao-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="676" height="313" viewBox="0 0 676 313">
+                            <g id="Grupo_7" data-name="Grupo 7" transform="translate(2541 -982) rotate(90)">
+                              <path id="Polígono_2" data-name="Polígono 2" d="M130.387,54.062c10.554-21.849,41.673-21.849,52.227,0L292.9,282.387A29,29,0,0,1,266.786,324H46.214A29,29,0,0,1,20.1,282.387Z" transform="translate(982 2217)" fill="rgba(214,214,214,0.13)"/>
+                              <path id="Polígono_3" data-name="Polígono 3" d="M130.387,54.062c10.554-21.849,41.673-21.849,52.227,0L292.9,282.387A29,29,0,0,1,266.786,324H46.214A29,29,0,0,1,20.1,282.387Z" transform="translate(982 2044)" fill="rgba(214,214,214,0.13)"/>
+                              <path id="Polígono_4" data-name="Polígono 4" d="M130.387,54.062c10.554-21.849,41.673-21.849,52.227,0L292.9,282.387A29,29,0,0,1,266.786,324H46.214A29,29,0,0,1,20.1,282.387Z" transform="translate(982 1865)" fill="rgba(214,214,214,0.13)"/>
+                            </g>
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="692" height="691.998" viewBox="0 0 692 691.998">
+                            <path id="Exclusão_1" data-name="Exclusão 1" d="M-6993-473a351.557,351.557,0,0,1-35.376-1.786,346.869,346.869,0,0,1-34.354-5.243,344.264,344.264,0,0,1-64.948-20.161,346.03,346.03,0,0,1-58.773-31.9,348.459,348.459,0,0,1-51.207-42.25,348.53,348.53,0,0,1-42.25-51.207,346.063,346.063,0,0,1-31.9-58.773,344.3,344.3,0,0,1-20.161-64.948,347.154,347.154,0,0,1-5.243-34.355A351.688,351.688,0,0,1-7339-819a351.681,351.681,0,0,1,1.786-35.376,347.149,347.149,0,0,1,5.243-34.354,344.3,344.3,0,0,1,20.161-64.947,346.035,346.035,0,0,1,31.9-58.773,348.516,348.516,0,0,1,42.25-51.207,348.478,348.478,0,0,1,51.207-42.25,346.045,346.045,0,0,1,58.773-31.9,344.26,344.26,0,0,1,64.948-20.161,346.862,346.862,0,0,1,34.354-5.243A351.515,351.515,0,0,1-6993-1165a351.515,351.515,0,0,1,35.376,1.786,346.9,346.9,0,0,1,34.355,5.243,344.282,344.282,0,0,1,64.948,20.161,346.057,346.057,0,0,1,58.773,31.9,348.472,348.472,0,0,1,51.207,42.25,348.454,348.454,0,0,1,42.25,51.207,346.05,346.05,0,0,1,31.9,58.773,344.242,344.242,0,0,1,20.161,64.947,347.149,347.149,0,0,1,5.243,34.354A351.655,351.655,0,0,1-6647-819a351.663,351.663,0,0,1-1.786,35.377,347.154,347.154,0,0,1-5.243,34.355,344.246,344.246,0,0,1-20.161,64.948,346.062,346.062,0,0,1-31.9,58.773,348.433,348.433,0,0,1-42.25,51.207,348.5,348.5,0,0,1-51.207,42.25,346.053,346.053,0,0,1-58.773,31.9,344.286,344.286,0,0,1-64.948,20.161,346.916,346.916,0,0,1-34.355,5.243A351.557,351.557,0,0,1-6993-473Zm.5-583c-130.958,0-237.5,106.542-237.5,237.5S-7123.458-581-6992.5-581-6755-687.542-6755-818.5-6861.542-1056-6992.5-1056Z" transform="translate(7339 1164.999)" fill="rgba(214,214,214,0.13)"/>
+                          </svg>
+                          
+                          <svg xmlns="http://www.w3.org/2000/svg" width="23.616" height="13.503" viewBox="0 0 23.616 13.503">
+                            <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M18,20.679l8.93-8.937a1.681,1.681,0,0,1,2.384,0,1.7,1.7,0,0,1,0,2.391L19.2,24.258a1.685,1.685,0,0,1-2.327.049L6.68,14.14a1.688,1.688,0,0,1,2.384-2.391Z" transform="translate(-6.188 -11.246)" fill="#5a6577"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        <section id="contato">
+            <div class="wrapper-contato">
+                <div class="text-contato" data-aos="zoom-in">
+                    <h1>Contato</h1>
+
+                    <div>
+                        <h2>Telefone</h2>
+                        <p>(21) 9 98108-5639</p>
+                    </div>
+                    <div>
+                        <h2>E-mail</h2>
+                        <p>d.96leandro@gmail.com</p>
+                    </div>
+                    
+                    <div>
+                        <h2>Redes sociais</h2>
+                        <div class="social-contato">
+                            <a href="https://github.com/DiSantoss">
+                                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 1.5C6.202 1.5 1.5 6.323 1.5 12.267c0 4.758 3.01 8.79 7.181 10.214a.82.82 0 0 0 .178.019c.39 0 .54-.286.54-.534 0-.258-.01-.933-.015-1.833a4.802 4.802 0 0 1-1.059.126c-2.02 0-2.48-1.57-2.48-1.57-.478-1.242-1.167-1.575-1.167-1.575-.914-.642-.005-.66.066-.66h.004c1.055.093 1.608 1.115 1.608 1.115.525.919 1.228 1.176 1.857 1.176a2.953 2.953 0 0 0 1.2-.28c.093-.695.365-1.168.665-1.44-2.33-.272-4.781-1.195-4.781-5.32 0-1.177.408-2.138 1.078-2.888-.108-.272-.469-1.369.103-2.85a.874.874 0 0 1 .235-.023c.38 0 1.237.145 2.653 1.13a9.76 9.76 0 0 1 5.259 0c1.416-.985 2.273-1.13 2.653-1.13a.873.873 0 0 1 .235.023c.571 1.481.21 2.578.103 2.85.67.755 1.078 1.716 1.078 2.888 0 4.134-2.456 5.043-4.796 5.31.375.333.713.99.713 1.993 0 1.439-.014 2.601-.014 2.953 0 .253.145.539.534.539a.9.9 0 0 0 .188-.019c4.176-1.425 7.181-5.46 7.181-10.214C22.5 6.323 17.798 1.5 12 1.5Z"></path>
+                                </svg>
+                            </a>
+    
+                            <a href="https://www.linkedin.com/in/eduardoqsilva/">
+                                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20.82 1.5H3.294c-.957 0-1.794.69-1.794 1.635v17.566c0 .951.837 1.799 1.794 1.799h17.521c.963 0 1.685-.854 1.685-1.8V3.136c.006-.946-.722-1.635-1.68-1.635ZM8.01 19.005H5V9.65h3.01v9.354ZM6.61 8.228h-.022c-.963 0-1.586-.716-1.586-1.613C5.002 5.7 5.642 5 6.626 5c.984 0 1.587.695 1.608 1.614 0 .897-.624 1.613-1.625 1.613Zm12.395 10.777h-3.009V13.89c0-1.225-.438-2.063-1.526-2.063-.832 0-1.324.563-1.543 1.111-.082.197-.104.465-.104.739v5.328H9.815V9.65h3.008v1.301c.438-.623 1.122-1.52 2.713-1.52 1.975 0 3.469 1.301 3.469 4.108v5.465Z"></path>
+                                </svg>
+                            </a>
+    
+                            <a href="https://www.instagram.com/_disantossilva/">
+                                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.375 3.25a4.388 4.388 0 0 1 4.375 4.375v8.75a4.388 4.388 0 0 1-4.375 4.375h-8.75a4.389 4.389 0 0 1-4.375-4.375v-8.75A4.388 4.388 0 0 1 7.625 3.25h8.75Zm0-1.75h-8.75C4.256 1.5 1.5 4.256 1.5 7.625v8.75c0 3.369 2.756 6.125 6.125 6.125h8.75c3.369 0 6.125-2.756 6.125-6.125v-8.75c0-3.369-2.756-6.125-6.125-6.125Z"></path>
+                                    <path d="M17.688 7.625a1.313 1.313 0 1 1 0-2.625 1.313 1.313 0 0 1 0 2.625Z"></path>
+                                    <path d="M12 8.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm0-1.75a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5Z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="decals-contato">
+                   
+                    <div class="decals-contato-wrapper" data-aos="fade-right">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1267.631" height="940.984" viewBox="0 0 1267.631 940.984">
+                            <g id="Grupo_8" data-name="Grupo 8" transform="translate(-189.389 -1674.964)">
+                              <path id="Caminho_41" data-name="Caminho 41" d="M9307.716,3334.439c0,3.865,140.142-11.887,247.692-50.943s245.719-164.487,218.275-253.372-117.933-87.34-169.111-32.462-20.768,230.329,298.17,123.667,373.084-362.5,373.084-362.5" transform="translate(-6830.187 -4755.944) rotate(25)" fill="none" stroke="rgba(112,112,112,0.13)" stroke-width="10"/>
+                              <path id="Icon_awesome-paper-plane" data-name="Icon awesome-paper-plane" d="M191.641,1.3,5.029,108.958a9.669,9.669,0,0,0,.886,17.393l42.8,17.957L164.384,42.365a2.414,2.414,0,0,1,3.462,3.342L70.857,163.874v32.41a9.66,9.66,0,0,0,17.111,6.361l25.566-31.122L163.7,192.541a9.69,9.69,0,0,0,13.286-7.328l28.988-173.93A9.664,9.664,0,0,0,191.641,1.3Z" transform="translate(1250.903 1868.837)" fill="rgba(214,214,214,0.13)"/>
+                            </g>
+                        </svg>
+                
+                    </div>
+                      
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023</p>
+
+    </footer>
+
+    <!-- scrool  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="src/scripts/menu.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
