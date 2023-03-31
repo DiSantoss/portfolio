@@ -120,6 +120,22 @@ main h1::after{
     animation-delay: -2s;
 }
 
+.photo-down img:not(:first-child){
+
+    animation: float-icon ease-in-out 4s infinite;
+}
+.photo-down img:nth-child(2){
+    animation-delay: -3s;
+}
+.photo-down img:nth-child(3){
+    animation-delay: -1s;
+}
+.photo-down img:nth-child(4){
+    animation-delay: -2s;
+}
+
+
+
 @keyframes float-icon {
     50%{
         transform: translateY(-20px);
