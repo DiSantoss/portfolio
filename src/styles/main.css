@@ -146,7 +146,6 @@ main section:nth-child(2){
     flex-direction: column;
     padding: 1rem;
     
-    gap: 50px;
 
     margin: auto;
 }
