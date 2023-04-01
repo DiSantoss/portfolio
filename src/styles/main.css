@@ -156,7 +156,7 @@ main section:nth-child(2){
     grid-template-columns: 450px 450px;
     grid-auto-rows: 260px;
     grid-gap: 1rem;
-
+    margin: -5px;
     align-content: center;
     justify-content: center;
 }
