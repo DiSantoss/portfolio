@@ -449,3 +449,17 @@ main section:last-child{
     height: 700px;
     top: -100px;
 }
+
+.infos {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ .infos:hover {
+    color: rgb(240, 236, 236);
+    border: solid 2px white;
+    border-radius: 15px;
+    padding: 10px;
+}
