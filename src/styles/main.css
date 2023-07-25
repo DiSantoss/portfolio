@@ -74,6 +74,8 @@ main section:nth-child(1){
 
 .photo-wrapper img{
     width: 200px;
+    margin-top: 50px;
+
 }
 .photo-wrapper{
     position: relative;
@@ -455,6 +457,7 @@ main section:last-child{
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
+    
 }
 
  .infos:hover {
@@ -462,4 +465,10 @@ main section:last-child{
     border: solid 2px white;
     border-radius: 15px;
     padding: 10px;
+    transition: color 2.5s
+}
+
+.containersection {
+    display: flex;
+    justify-content: space-between;
 }
