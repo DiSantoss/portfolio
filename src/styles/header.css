@@ -107,7 +107,8 @@ header section h2:nth-child(1){
     font-size: 1.87rem;
 }
 header section h2:nth-child(3){
-    font-size: 3.5rem;
+    font-size: 35px;
+    margin-left: 15px;
 }
 
 header a{
