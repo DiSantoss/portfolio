@@ -465,7 +465,7 @@ main section:last-child{
     border: solid 2px white;
     border-radius: 15px;
     padding: 10px;
-    transition: color 2.5s
+    transition: color 2.5s;
 }
 
 .containersection {
