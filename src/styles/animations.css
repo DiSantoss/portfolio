@@ -118,6 +118,7 @@ main h1::after{
 }
 .photo-wrapper img:nth-child(4){
     animation-delay: -2s;
+    
 }
 
 .photo-wrapper img:nth-child(5){
